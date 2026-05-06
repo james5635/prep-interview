@@ -1,0 +1,16 @@
+{
+  "name": "interview",
+  "private": true,
+  "scripts": {
+    "start": "bun sum_nested.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@typescript/native-preview": "^7.0.0-dev.20260421.1"
+  }
+}
