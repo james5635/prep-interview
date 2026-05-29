@@ -1,5 +1,5 @@
 import { test, expect } from 'bun:test'
-import { isUniqueChar } from './is-unique-char'
+import { isUniqueChar } from '../../../basic/string/is-unique-char'
 
 test("should pass", () => {
     expect(isUniqueChar('abc')).toBe(true)

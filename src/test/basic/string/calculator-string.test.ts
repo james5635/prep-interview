@@ -1,5 +1,5 @@
 import { test, describe, expect } from 'bun:test'
-import { Calculator } from './calculator-string'
+import { Calculator } from '../../../basic/string/calculator-string'
 
 test('will equal 20', () => {
   let calc = new Calculator()

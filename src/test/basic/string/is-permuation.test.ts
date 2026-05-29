@@ -1,5 +1,5 @@
 import { test, expect } from 'bun:test'
-import { permutation } from './is-permutation'
+import { permutation } from '../../../basic/string/is-permutation'
 
 test("should pass", () => {
     expect(permutation('abc', 'bac')).toBe(true)

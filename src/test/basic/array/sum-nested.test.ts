@@ -1,5 +1,5 @@
 import { test, expect, describe } from 'bun:test'
-import { sumNested } from './sum-nested'
+import { sumNested } from '../../../basic/array/sum-nested'
 
 describe("nested sum", () => {
 
