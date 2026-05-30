@@ -1,10 +1,10 @@
 class Node {
     elem: number;
     next: Node | null;
-    constructor(elem: number) {
+    constructor(elem: number, next: Node | null = null) {
         this.elem = elem
-        this.next = null
+        this.next = next
     }
 }
 
-export {Node}
+export { Node }
